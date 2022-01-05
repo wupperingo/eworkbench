@@ -1,0 +1,40 @@
+{
+  "cwd": "/home/ingo/Projekte/eworkbench",
+  "type": [
+    "web",
+    "pwa",
+    "cordova",
+    "capacitor"
+  ],
+  "name": "eworkbench",
+  "pkg": "eu.selfhost.workbench",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android",
+      "electron"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "capacitor": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
