@@ -1,6 +1,6 @@
 
 import HomePage from '../pages/home.f7';
-import AboutPage from '../pages/about.f7';
+import AboutPage from '../pages/components.f7';
 import FormPage from '../pages/form.f7';
 
 
@@ -14,7 +14,7 @@ var routes = [
     component: HomePage,
   },
   {
-    path: '/about/',
+    path: '/components/',
     component: AboutPage,
   },
   {
