@@ -27,6 +27,7 @@ export default {
   base: '',
   publicDir: PUBLIC_DIR,
   build: {
+    chunkSizeWarningLimit: 1600,
     outDir: BUILD_DIR,
     assetsInlineLimit: 0,
     emptyOutDir: true,
